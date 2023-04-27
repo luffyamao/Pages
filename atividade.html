@@ -4,29 +4,46 @@
 <meta charset="UTF-8"/>
 <title> THE best site </title>
 </head>
+
+<div class="container">
+    
+</div>
+
+
 <style type="text/css"> 
-    #imgpos {
+
+    .container {
+        width: 3500px;
+        height: 1500px;
+        background: linear-gradient(0, #120c56, #000000);
+    }
+
+    #vidpos {
         position: absolute;
-        left: 1600px;
+        left: 780px;
         top: 130px;
+        box-shadow: 10px 5px 5px black;
     }
 </style>
-<body 
-    background="">
-    <img src="https://github.com/luffyamao/galeria/blob/main/Invincible.jpg?raw=true" width="140" height="150" alt="logo do site" id="imgpos">
-    <video src="C:\Users\20211164010033\Downloads\Michael Jackson - Whatever Happens (Audio).mp4" type="video/mp4"></video>
-    <video controls poster="https://github.com/luffyamao/galeria/blob/main/Invincible.jpg?raw=true">
-        <source scr="C:\Users\20211164010033\Downloads\Michael Jackson - Whatever Happens (Audio).mp4">
-        <object>
-            <embed src="demo.mp4" type="application/x-shockwave-flash" 
-                 allowfullscreen="false" allowscriptaccess="always"> 
-        </object>
-        Formato não suportado
-    </video>
+<body
+
+    background=".container"
+
 
 <center>
 <font size="6" font color="black">
 <p1> Whatever Happens </p1>
+<hr>
+
+<video controls poster="https://github.com/luffyamao/galeria/blob/main/Invincible.jpg?raw=true" width="1100" height="650" id="vidpos" preload="auto">
+
+    <source scr="C:\Users\20211164010033\Downloads\Michael Jackson - Whatever Happens (Audio).mp4">
+    <object>
+        <embed src="demo.mp4" type="application/x-shockwave-flash" 
+             allowfullscreen="false" allowscriptaccess="always"> 
+    </object>
+    Formato não suportado
+</video>
 <br>
 </font>
 </center>
